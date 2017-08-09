@@ -23,7 +23,15 @@ nvm install v8.2.1
 npm install -g yarn
 
 # add enterprise software development tools
-yarn global add vue-cli
+yarn global add vue-cli serve
+
+# git clone https://github.com/brngdsn/valyrian
+
+# cd valyrian
+
+# yarn
+
+# yarn serve:prod
 
 # then just do your stuff, like `vue init webpack`
 

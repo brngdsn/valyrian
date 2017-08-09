@@ -7,7 +7,7 @@ sudo iptables -t nat -L
 sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-ports 8000
 
 # get production server
-yarn add global serve
+# yarn add global serve
 
 # serve current directory (e.g., `cd dist/ && serve`)
-serve --port 8000
+# serve --port 8000
