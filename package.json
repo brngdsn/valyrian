@@ -5,9 +5,11 @@
   "author": "brn.gdsn@gmail.com",
   "private": true,
   "scripts": {
-    "serve:prod": "cd dist/ && serve --port 8000",
+    "eg:serve:prod": "cd dist/ && serve --port 8000",
+    "serve:prod": "cd dist/ && serve --port $PORT",
     "get-started": "vue init webpack && yarn && yarn add vuex vue-resource buefy && yarn dev",
-    "ssh": "ssh -i ../valyrian.pem ec2-user@ec2-54-144-251-131.compute-1.amazonaws.com",
+    "eg:ssh": "ssh -i ../valyrian.pem ec2-user@ec2-54-144-251-131.compute-1.amazonaws.com",
+    "ssh": "ssh -i ../valyrian.pem ec2-user@$HOST",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js",
