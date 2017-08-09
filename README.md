@@ -2,6 +2,16 @@
 
 > ec2
 
+## Machine setup
+
+``` bash
+  $ curl -o- https://raw.githubusercontent.com/brngdsn/valyrian/master/devops/install.sh | bash
+```
+
+## Machine config (for prod)
+
+Use `devops/config.sh`.
+
 ## Build Setup
 
 ``` bash
